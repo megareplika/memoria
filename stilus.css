@@ -1,0 +1,47 @@
+#fo
+{
+    display: grid;
+    grid-template-areas: 
+        'g'
+        't'
+        ;
+    margin: auto;
+    max-width: 550px;
+}
+.kartya
+{
+    width: 120px;
+    height: 120px;
+    margin: 3px;
+    border: solid black 1.5px;
+    padding: 2.5px;
+}
+#kezgomb
+{
+    grid-area: g;
+    max-width: 550px;
+}
+#jatekter
+{
+    grid-area: t;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-gap: 12px;
+    margin-top: 8px;
+    min-height: 680px;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
+#ter
+{
+    margin-top: 8px;
+    background-color: chartreuse;
+}
+#jatekter
+{
+    margin-left: 28%;
+}
